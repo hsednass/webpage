@@ -99,20 +99,20 @@ h4{
     display: inline-block;
     outline: none;
     border: none;
-    padding: 9px 30px;
+    padding: 12px 26px;
     border-radius: 30px;
     background-color: #f9004d;
     color: #ffffff;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top: 6px; 
+    top: 4px; 
     right: 6px;
     transition: 0.4s;
     cursor: pointer;
 }
 .newsletter form input:last-child:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
     background-color: #000;
-    border: 2px solid #f9004d;
+    /* border: 2px solid #f9004d; */
 }
 .about{
     width: 100%;
