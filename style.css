@@ -196,7 +196,7 @@ button:hover{
     min-height: 400px;
 }
 .card{
-    height: 430px;
+    height: 400px;
     width: 360px;
     padding: 20px 35px;
     background-color: #191919;
@@ -227,6 +227,8 @@ button:hover{
     margin-bottom: 25px;
 }
 .card .button{
+    position: absolute;
+    overflow: hidden;
     background-color: #f9004d;
     color: #ffffff;
     text-decoration: none;
@@ -236,6 +238,9 @@ button:hover{
     font-weight: bold;
     transition: .4s;
     cursor: pointer;
+    bottom: 1px;
+    left:100px;
+    right:100px;
 }
 .card .button:hover{
     background-color: transparent;
